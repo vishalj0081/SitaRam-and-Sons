@@ -17,7 +17,7 @@ const Contact = () => {
 
     <div className='Contact-information'> 
     <h4 className='gap'> CALL US:  </h4>
-     <p className="Under-callUs"> Pick up the phone and call us on 9554614360 . We're available Mon to Sat 10:00 Am to 6:00 Pm IST </p>
+     <p className="Under-callUs"> Pick up the phone and call us on <a href="tel: +91-9554614360" className='Under-callUs'>  +91-9554614360 </a> . We're available Mon to Sat 10:00 Am to 6:00 Pm IST </p>
      <p className='gap'>
     Regd.Office:
     </p>
@@ -28,7 +28,7 @@ const Contact = () => {
      </span>
      <div className='gap'> 
      <p className='Address-Head'> GSTIN: <span className='Address-body'> 09AKAPK0203D2ZY </span></p>
-     <p className='Address-Head'> Phone No: <span className='Address-body'>  +91-9451631818 </span> </p>
+     <p className='Address-Head'> Phone No: <a href="tel: +91-9554614360" className='Mail'>  +91-9554614360 </a> </p>
     <p className='Address-Head'> Email: <a className='Mail' href="mailto: Dilipjaiswal019@gmail.com" > Dilipjaiswal019@gmail.com </a> </p> 
     </div>
     </div>
