@@ -1,4 +1,5 @@
 
+import './contact.styles.scss';
 
 import Button from '../button/button.component';
 
