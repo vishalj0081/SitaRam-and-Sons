@@ -1,4 +1,5 @@
 
+
 .heading{
     background-color: grey;
     letter-spacing: 1px;
@@ -6,74 +7,45 @@
     margin-top: 20px;
     color: white;
     line-height: 42px;
-     
+     margin-top: 25px;
     }
     
     .Enquiry{
         font-size: 20px;
-        font-family: Georgia, 'Times New Roman', Times, serif; 
-    
-        .Enquiry-table{
-            margin: 10px;
-            gap: 20px;
-           
-             justify-content: space-between;
-             margin-top: 10px;
-             height: 90px;
-             justify-content: center;
-             column-span:all; 
-             column-width: 10px;
-             .Label {
-                text-align: center; 
-            
-    
-    
-                .Label-input{
-    
-                    
-           }
-           }
-           }
-           }
-    
-           .Button{
-            margin-top: 12px;  
-            padding: 10PX 20px;
-            display: inline-block;
-            
-            }
-    
-      
+        font-family: Georgia, 'Times New Roman', Times, serif;
+         margin-top: 25px;
+    }
+
      
-    
-    
-    
-    
+
+
+
+
+          
+  
     
     
     
     .call-us{
-        
-        font-size: 15px;
-        
-    }
+    font-size: 15px;
+       }
     .Under-callUs {
         font-size: 13px;
-        margin-top: 15px;
+        margin-top: 20px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: grey;
         
     }
     
-    .Address-container {
+    .gap {
         font-size: 15px; 
-        margin-top: 30px;
+        margin-top: 35px;
       
     }
     .Address-Head{
        
         font-size: 13px;
-        margin-top: 20px;  
+        margin-top: 2px;  
     }
     
     .Address-body{
@@ -88,5 +60,4 @@
     color: blue;
     
     }
-    
     
