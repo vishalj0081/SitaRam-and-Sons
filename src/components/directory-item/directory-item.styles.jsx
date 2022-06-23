@@ -18,7 +18,7 @@ align-items: center;
 justify-content: center;      
 border: 1px solid black;     
 background-color: white;    
-opacity: 0.7;      
+opacity:85%;      
 position: absolute;
 
 h2 {
@@ -32,6 +32,7 @@ text-transform: uppercase;
 p {
 font-weight: lighter;
 font-size: 16px;
+color: blue;
 }
 `
 export const StyledDirectoryItem = styled.div`
@@ -53,7 +54,7 @@ transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
 }
 
 & ${Styledbody} {
-opacity: 0.9;
+opacity: 100%;
 }
 }
 

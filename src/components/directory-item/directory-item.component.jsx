@@ -11,6 +11,7 @@ const NavigateHandler = ()=> NavigateTo(route);
     return(
         <StyledDirectoryItem onClick={NavigateHandler}>
         <StyledBGImage imageUrl={imageUrl} />
+       
             
     
         <Styledbody>
@@ -18,6 +19,7 @@ const NavigateHandler = ()=> NavigateTo(route);
           <p>Shop Now</p>
         </Styledbody>
       </StyledDirectoryItem>
+    
     )
 }
   
