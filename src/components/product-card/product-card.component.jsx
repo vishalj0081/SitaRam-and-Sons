@@ -16,7 +16,7 @@ const ProductCard = ({ product }) => {
 
     <StyledFooterInpcard>
      <ProductName>{name}</ProductName>
-     <ProductPrice> ₹.{price}</ProductPrice>   
+     <ProductPrice> ₹{price}</ProductPrice>   
     </StyledFooterInpcard>
     <Button buttonType={BUTTON_TYPE_CLASSES.inverted} onClick={addProductToCart}>
         Add to cart

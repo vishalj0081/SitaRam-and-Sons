@@ -15,7 +15,9 @@ import {
     collection,
     writeBatch,
     query,
-    getDocs
+    getDocs,
+    addDoc,
+    
  } from 'firebase/firestore'
 
 const firebaseConfig = {
@@ -28,7 +30,7 @@ const firebaseConfig = {
   };
   
   // Initialize Firebase
- initializeApp(firebaseConfig);
+const firebaseapp= initializeApp(firebaseConfig);
 
 
 const googleProvider = new GoogleAuthProvider();
@@ -43,7 +45,7 @@ export const signInWithGooglePopup = () =>
 export const signInWithGoogleRedirect = () =>
   signInWithRedirect(auth, googleProvider);
 
-export const db = getFirestore();
+export const db = getFirestore(firebaseapp);
 
 export const addCollectioAndDocuments = async (collectionKey, objectsToAdd) => { 
 const collectionRef = collection(db, collectionKey);
@@ -118,4 +120,13 @@ export const SignOutUser = async ()=>  await signOut(auth);
 export const onAuthStateChangeLister = (callback, errorcallback, completedcallback)=> 
 onAuthStateChanged(auth, callback, errorcallback, completedcallback);
 
+
+const FeedbackCollectionRef = collection(db, "Feedback");
+class FeedbackServices {
+  addFeedback= (newFeedback) => {
+    return addDoc(FeedbackCollectionRef, newFeedback);
+  };
+};
+
+export default new FeedbackServices();
 
