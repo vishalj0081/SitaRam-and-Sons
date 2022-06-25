@@ -26,6 +26,9 @@ top: 10px;
 transition: 300ms ease all;
 
 ${({ shrink })=> shrink && shrinkLabelStyles };
+@media screen and (max-width: 800px) {
+  font-size: 12px;
+}
 `
 
 

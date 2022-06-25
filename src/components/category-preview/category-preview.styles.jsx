@@ -39,8 +39,9 @@ align-items: center;
   @media screen and (max-width: 800px) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 50px;
+    column-gap: 30px;
     row-gap: 20px;
+    padding: 10px 10px 10px 10px;
 
     }
   
