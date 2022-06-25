@@ -45,7 +45,7 @@ const { cartItems, cartTotal } = useContext(CartContext);
            : (
             <Emptymessage> Your cart is empty </Emptymessage>
           )}
-        <CheckoutTotal> Total: ₹.{ cartTotal } </CheckoutTotal>
+        <CheckoutTotal> Total: ₹ {cartTotal} </CheckoutTotal>
         </StyledCheckoutcontainer>
     );
 };

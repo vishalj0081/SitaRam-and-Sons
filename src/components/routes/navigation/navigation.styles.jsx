@@ -14,6 +14,9 @@ export const StyledLogo = styled(Link)`
 height: 100%;
 width: 70px;
 padding: 25px;
+@media screen and (max-width: 800px) {
+ padding: 10px 1px 5px 0px;
+ width: 50px;
 `
 export const StyledNavLinks = styled.div`
 width: 50%;
@@ -21,6 +24,10 @@ height: 100%;
 display: flex;
 align-items: center;
 justify-content: flex-end;
+@media screen and (max-width: 800px) {
+padding: 0px;
+width: 90%;
+
 `
 
 

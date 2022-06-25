@@ -13,6 +13,7 @@ margin-left: 20px;
 justify-content: space-evenly;
 
 
+
 img {
   width: 100%;
   height: 90%;
@@ -21,6 +22,7 @@ img {
   margin-left: 10px;
   margin-top: 25px;
   justify-content: space-evenly;
+    
 }
 
 button {
@@ -29,6 +31,7 @@ button {
   position: absolute;
   top: 240px;
   display: none;
+  
 }
 
 &:hover {
@@ -39,7 +42,46 @@ button {
   button {
     opacity: 0.85;
     display: flex;
+    
   }
+}
+
+
+@media screen and (max-width: 800px) {
+justify-content: space-between;
+width: 150px;
+height: 200px;
+position: relative;
+margin-right: 20px;
+margin-left: 10px;
+    
+
+ 
+button {
+   opacity: 0.9;
+  position: absolute;
+  top: 180px;
+  display: block;
+  min-width: 30px;
+  height: 25px;
+  line-height: 10px;
+  font-size: 7px;
+  padding: 0 8px 0 8px;
+  
+}
+
+&:hover {
+  img {
+    opacity: unset;
+  }
+
+  button {
+    opacity: unset;
+       
+  }
+}
+
+
 }
 `
 
@@ -50,6 +92,17 @@ display:flex;
 justify-content: space-between;
 font-size: 14px;
 margin-left: 10px;
+
+@media screen and (max-width: 800px) {
+  width: 100%;
+  height: 5%;
+  display:flex;
+  font-size: 10px;
+  margin-top: 10px;
+  justify-content: space-around;
+ 
+}
+  
 `
 export const ProductName = styled.span`
 width: 90%;
@@ -57,6 +110,5 @@ margin-bottom: 13px;
 `
 export const ProductPrice = styled.span`
 width: 10%;
-
 `           
        

@@ -21,18 +21,32 @@ background-color: white;
 opacity:85%;      
 position: absolute;
 
+@media screen and (max-width: 800px) {
+    height: 50px; 
+    width: 120px; 
+    padding: 0 0px; 
+}
+
 h2 {
 font-weight: bold;          
 margin: 0 6px 0;
 font-size: 22px;
 color: #4a4a4a;
 text-transform: uppercase;
+@media screen and (max-width: 800px) {
+font-size: 10px;
+color: black; 
+
+}
+
 }
 
 p {
 font-weight: lighter;
 font-size: 16px;
 color: blue;
+@media screen and (max-width: 800px) {
+font-size: 7px; 
 }
 `
 export const StyledDirectoryItem = styled.div`
@@ -47,6 +61,7 @@ margin: 0 7.5px 15px;
 overflow: hidden;
 &:hover {
 cursor: pointer;
+
 
 & ${StyledBGImage} {
 transform: scale(1.1);
@@ -69,5 +84,10 @@ margin-right: 7.5px;
 &:last-child {
 margin-left: 7.5px;
 }
-`
 
+@media screen and (max-width: 800px) {
+height: 200px;
+
+}
+
+`

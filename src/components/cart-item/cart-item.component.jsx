@@ -10,7 +10,7 @@ const CartItem = ({ cartItem }) => {
         <StyledCartItemDetails>
           <StyledNamePrice>{name}</StyledNamePrice>
           <StyledNamePrice>
-            {quantity } x ₹.{price}
+            {quantity } x ₹ {price}
           </StyledNamePrice>
         </StyledCartItemDetails>
       </StyledCartItem>

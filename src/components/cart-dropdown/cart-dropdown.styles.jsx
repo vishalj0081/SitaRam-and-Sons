@@ -12,6 +12,9 @@ background-color: white;
 top: 90px;
 right: 40px;
 z-index: 5;
+@media screen and (max-width: 800px) {
+ 
+}
 `
 
 export const EmptyMessage = styled.span`
@@ -24,6 +27,7 @@ height: 240px;
 display: flex;
 flex-direction: column;
 overflow: scroll;
+
 `
 
   

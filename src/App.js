@@ -7,9 +7,12 @@ import Authentication from '../src/components/routes/authentication/authenticati
 import Shop from './components/routes/shop/shop.component';
 import Contact from './components/Contact/contact.component';
 import Checkout from '../src/components/routes/checkout/checkout.component';
-
+import { GlobalStyles } from './global.styles';
 const  App = () => {
  return (
+   <div>
+   <GlobalStyles/>
+   
    <Routes> 
   <Route path='/' element = {<Navigation /> }>
    <Route index element = { <Home /> } />
@@ -19,7 +22,7 @@ const  App = () => {
     <Route path ='Checkout' element = {<Checkout/>} />
        </Route>
    </Routes> 
-    
+   </div> 
   
 ); 
 

@@ -1,60 +1,64 @@
 
-.contact-container{
+h1{
+ background-color: grey;
+ letter-spacing: 1px;
+ font-size: 25px;
+ margin-top: 20px;
+ color: white;
+ line-height: 42px;
+ margin-top: 25px;
+ padding: 5px 0px 5px 50px ;
+ }
 
-    display: flex;
-    flex-direction:row;
-    justify-content:space-between;
-    margin: 50px;
+  .Address-body { 
+    display: flex; 
+    color: rgb(46, 44, 44);
+    line-height: 1.6;
+    letter-spacing: 1px;
+    padding: 10px 10px 10px 10px;
     
-}
+     }
+    
+     .Mail {
+        color: blue;  
+ }
 
-  .h-container{
-    font-weight: bold;
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 20px 500px 0px 80px;
-     
+ .Heading{
+    background-color: rgb(183, 106, 106);
+    width: 40%;
+    letter-spacing: 1px;
+    font-size: 25px;
+    color: white;
+    line-height: 30px;
+    padding: 10px 10px 8px 12px ;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 25px;
+    margin-top: 25px;
+   
+   }
+      
+   @media screen and (max-width: 800px) {
 
-  }
-
-
-
-    h1{
+      h1{
         background-color: grey;
-        letter-spacing: 1px;
-        font-size: 20px;
-        margin-top: 20px;
-        color: white;
-        line-height: 42px;
+         letter-spacing: 1px;
+         font-size: 20px;
+         margin-top: 20px;
+         color: white;
+         line-height: 30px;
          margin-top: 25px;
-         padding: 0px 0px 0px 50px ;
-    }
-    
-    
-      .Address-head {
-        font-size: 15px;
-        line-height: 1.6;
-         color:  #777; 
-         font-weight: bold;
-         
-         
-       }
-
-       .Address-body{
-       
-       font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-       color: #777;
-       font-size: 0.875em;
-       line-height: 1.6;
-       letter-spacing: 2.5px;
-       padding: 0px 350px 0px 0px ;
-       
-       
-      .Mail{
-      color: blue;
-    
-    }
-    
-}
+         padding: 10px 0px 5px 10px ;
+      }
+   
+      .Address-body { 
+   font-size: 11px;
+      }
+      .Heading{
+         width: 100%;
+         font-size: 20px;
+         color: white;
+         line-height: 20px;
+      }
+      
+   }

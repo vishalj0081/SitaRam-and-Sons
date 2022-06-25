@@ -23,6 +23,7 @@ justify-content: center;
   color: black;
   border: 1px solid black;
 }
+
 `
 export const StyledGoogleSignInButton = styled(StyledBaseButton)`
 background-color: #4285f4;

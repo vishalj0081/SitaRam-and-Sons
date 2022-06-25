@@ -31,7 +31,7 @@ const decrementItemHandler = () => addItemToCart(cartItem);
 <StylCgeckoutValue> {quantity} </StylCgeckoutValue>
 <StylCheckoutArrow onClick={decrementItemHandler}> &#10095; </StylCheckoutArrow>
 </StyledCheckoutQuantity>
-<StyledCheckoutNamePrice> ₹.{price} </StyledCheckoutNamePrice>
+<StyledCheckoutNamePrice> ₹{price} </StyledCheckoutNamePrice>
 <StylCheckoutXbutton onClick={clearItemHandler}>
 &#10005;
 </StylCheckoutXbutton>
