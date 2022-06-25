@@ -123,9 +123,12 @@ onAuthStateChanged(auth, callback, errorcallback, completedcallback);
 
 const FeedbackCollectionRef = collection(db, "Feedback");
 class FeedbackServices {
+  
   addFeedback= (newFeedback) => {
     return addDoc(FeedbackCollectionRef, newFeedback);
+    
   };
+  
 };
 
 export default new FeedbackServices();

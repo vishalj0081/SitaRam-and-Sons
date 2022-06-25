@@ -11,9 +11,9 @@ const defaultFormFields = {
 
 const AddFeedback = () => {
   const [formFields, setFormFields] = useState(defaultFormFields);
+  const createdAt = new Date();
   const {Name, email,message } = formFields;
- 
-  const resetFormFields = () => {
+    const resetFormFields = () => {
     setFormFields(defaultFormFields);
     };
     const handleSubmit = async (event) => {
@@ -21,10 +21,12 @@ const AddFeedback = () => {
   
      
     const newFeedback = {
+      createdAt,  
       Name,
       email,
       message,
     };
+    
     
   
      try {
