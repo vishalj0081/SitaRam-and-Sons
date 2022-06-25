@@ -12,7 +12,7 @@ const categories = [
 
 {
     id: 2,
-    title: 'Bevrage & Drinks',
+    title: 'Beverage & Drinks',
     imageUrl: 'https://images.freekaamaal.com/post_images/1600942117.jpg',
     route: 'Shop/bevrage & drinks'
   },

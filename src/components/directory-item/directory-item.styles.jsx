@@ -23,8 +23,7 @@ position: absolute;
 
 @media screen and (max-width: 800px) {
     height: 50px; 
-    width: 120px; 
-    padding: 0 0px; 
+   padding: 0 0px; 
 }
 
 h2 {
@@ -33,8 +32,9 @@ margin: 0 6px 0;
 font-size: 22px;
 color: #4a4a4a;
 text-transform: uppercase;
+
 @media screen and (max-width: 800px) {
-font-size: 10px;
+font-size: 8px;
 color: black; 
 
 }
@@ -46,7 +46,7 @@ font-weight: lighter;
 font-size: 16px;
 color: blue;
 @media screen and (max-width: 800px) {
-font-size: 7px; 
+font-size: 6px; 
 }
 `
 export const StyledDirectoryItem = styled.div`
