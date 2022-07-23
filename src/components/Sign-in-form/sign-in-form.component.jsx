@@ -1,4 +1,11 @@
-
+/**
+ * This is a SignIn form component and will have some form input along with a 
+ * signIn button.
+ * 
+ * @param {email} email
+ * @param {password} password
+ * 
+ */
 import { useState} from 'react';
 import FormInput from '../form-input/form-input.component';
 import Button, { BUTTON_TYPE_CLASSES } from '../button/button.component';
